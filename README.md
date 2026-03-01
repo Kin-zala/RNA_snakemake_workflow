@@ -43,22 +43,23 @@ FASTQ → FastQC → Cutadapt → STAR alignment → featureCounts → DESeq2 �
 ---
 
 ## Repository Structure
-- Snakefile
-- deseq_rScript.r
-- README.md
-- .gitignore
-- envs/
-    - fastqc.yaml
-    - cutadapt.yaml
-    - star.yaml
-    - subread.yaml
-    - deseq2.yaml
-
-- featureCounts_output.txt
-- deseq2_results.txt
-- deseq2_up.txt
-- deseq2_down.txt
-
+```text
+.
+├── Snakefile              # Pipeline logic
+├── deseq_rScript.r        # Differential expression analysis
+├── README.md
+├── .gitignore
+├── envs/                  # Conda environment definitions
+│   ├── fastqc.yaml
+│   ├── cutadapt.yaml
+|   ├── star.yaml
+|   ├── subread.yaml
+│   └── deseq2.yaml
+├── featureCounts_output.txt
+├── deseq2_results.txt
+├── deseq2_up.txt
+└── deseq2_down.txt
+```
 ---
 ## Requirements
 
