@@ -1,0 +1,28 @@
+# Raw sequencing data
+*.fastq.gz
+
+# Genome and annotation
+genome.fa
+*.fa
+*.fasta
+*.gtf
+*.gff
+
+# Snakemake working directory
+.snakemake/
+
+# Intermediate files
+alignment_results/
+trimmed_files/
+fastqc_reports/
+star_index/
+
+# STAR logs
+Log.out
+Log.final.out
+Log.progress.out
+SJ.out.tab
+
+# Misc
+*.summary
+*.log
