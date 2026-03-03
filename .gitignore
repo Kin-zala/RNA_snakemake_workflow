@@ -25,4 +25,4 @@ SJ.out.tab
 
 # Misc
 *.summary
-*.log
+*.log*.txt
