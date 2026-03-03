@@ -38,7 +38,15 @@ The pipeline performs the following steps:
 ---
 
 ## Workflow Diagram
-FASTQ → FastQC → Cutadapt → STAR alignment → featureCounts → DESeq2 → Results
+```mermaid
+graph LR
+    A[FASTQ files] --> B[FastQC]
+    B --> C[Cutadapt]
+    C --> D[STAR alignment]
+    D --> E[featureCounts]
+    E --> F[DESeq2]
+    F --> G[Results]
+```
 
 ---
 
