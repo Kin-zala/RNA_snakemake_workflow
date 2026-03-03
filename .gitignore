@@ -27,3 +27,8 @@ SJ.out.tab
 *.summary
 *.log*.txt
 *.txt
+genome.fa
+annotation.gtf
+*.fastq.gz
+*.bam
+*.bai
