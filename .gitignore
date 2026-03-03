@@ -32,3 +32,4 @@ annotation.gtf
 *.fastq.gz
 *.bam
 *.bai
+.vscode/
